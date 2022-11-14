@@ -83,7 +83,6 @@ function populateCardsDynamically() {
                 testHikeCard.querySelector('.card-length').innerHTML = hikeLength;  //equiv getElementByClassName
                 testHikeCard.querySelector('a').onclick = () => setHikeData(hikeID);//equiv getElementByTagName
                 testHikeCard.querySelector('img').src = `./images/${hikeID}.jpg`;   //equiv getElementByTagName
-                testHikeCard.querySelector('.read-more').href = "eachHike.html?hikeName="+hikeName +"&id=" + hikeID;
                 hikeCardGroup.appendChild(testHikeCard);
             })
 

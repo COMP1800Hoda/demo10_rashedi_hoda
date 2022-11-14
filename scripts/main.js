@@ -26,7 +26,8 @@ function insertName() {
         // document.getElementByID("name-goes-here").innetText=user_Name;
       });
     }
-  });
+
+ })
 }
 insertName();
 
